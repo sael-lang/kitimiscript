@@ -4663,7 +4663,7 @@ async def process_data(request: Request):
     # file_name = "response_data.json"
     # with open(file_name, "w") as json_file:
     #     json.dump(response_data, json_file)
-    
+    print(response_data)
     headers = {
         "Token": "KEy5YrFM3EieHYc+CSoFTZlFBtVonvat" 
     } 
